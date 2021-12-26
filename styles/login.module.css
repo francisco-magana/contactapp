@@ -1,0 +1,74 @@
+.background {
+
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0, 0.3)), url('/images/login-background.jpg');    
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.login {
+
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 9.5px );
+    -webkit-backdrop-filter: blur( 9.5px );
+    border-radius: 10px;
+    padding: 35px;
+    border: 0;
+    color: white;
+    width: 250px;
+
+}
+
+.login__title {
+
+    margin-bottom: 20px;
+
+}
+
+
+.login__input {
+
+    background: none;
+    border: 0;
+    border-bottom: 2px solid white;
+    margin: 10px 0px;
+    width: 90%;
+    color: white;
+    font-size: 19px;
+
+}
+
+.login__input:focus, .login__input:active {
+
+    outline: 0;
+
+}
+
+.login__button {
+
+    border: 0;
+    background-color: #185ADB;
+    border-radius: 24px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 12px;
+    transition: 0.3s;
+
+}
+
+.login__button:hover { 
+
+    transform: scale(1.05);
+    cursor: pointer;
+
+}
